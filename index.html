@@ -30,15 +30,100 @@
     </style>
 </head>
 
-<body>
-    <header>
-
+<body class="font-manrope">
+    <header class="mx-auto w-4/5 py-10">
+        <div class="navbar bg-base-100 justify-between items-center">
+            <div class="">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden -translate-x-7">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box text-[#424247] text-base font-normal leading-normal">
+                        <li class="font-bold text-[#FF4240]"><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="lg:w-full w-1/2 -translate-x-7 lg:translate-x-0">
+                    <a class="text-[#131318] text-2xl lg:text-4xl font-extrabold leading-normal" href="#">Hockey<span
+                            class="text-[#FF4240]">’</span>s</a>
+                </div>
+            </div>
+            <div class="hidden lg:flex">
+                <ul class="menu menu-horizontal px-10 text-[#424247] text-base font-normal leading-normal">
+                    <li class="font-bold text-[#FF4240]"><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+            </div>
+            <div class="flex lg:gap-6 justify-end lg:justify-center items-center">
+                <div class="hidden lg:block text-[#89898B] text-base">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <a
+                    class="hover:bg-[#e6403d] cursor-pointer transition-ease-in duration-300 bg-[#FF4240] w-full md:block py-[10px] lg:py-[12px] px-[17px] md:px-[24px] rounded-md text-[18px] lg:text-xl font-bold text-white">Get
+                    Ticket</a>
+            </div>
+        </div>
+        <div class=" md:relative">
+            <div class="py-8 carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <div class="w-full">
+                        <img src="./Images/1.png" class="w-full" />
+                    </div>
+                    <div
+                        class="absolute flex justify-between lg:justify-start transform -translate-y-1/2 left-5 right-5 top-1/2 lg:top-[90%] lg:gap-5">
+                        <a href="#slide4" class="bg-[#111] text-white btn btn-circle">❮</a>
+                        <a href="#slide2" class="bg-[#111] text-white btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="./Images/slide-2.jpg" class="w-full rounded-xl" />
+                    <div
+                        class="absolute flex justify-between lg:justify-start transform -translate-y-1/2 left-5 right-5 top-1/2 lg:top-[90%] lg:gap-5">
+                        <a href="#slide1" class="bg-[#111] text-white btn btn-circle">❮</a>
+                        <a href="#slide3" class="bg-[#111] text-white btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="./Images/slide-3.jpg" class="w-full rounded-xl" />
+                    <div
+                        class="absolute flex justify-between lg:justify-start transform -translate-y-1/2 left-5 right-5 top-1/2 lg:top-[90%] lg:gap-5">
+                        <a href="#slide2" class="bg-[#111] text-white btn btn-circle">❮</a>
+                        <a href="#slide4" class="bg-[#111] text-white btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="./Images/slide-4.jpg" class="w-full rounded-xl" />
+                    <div
+                        class="absolute flex justify-between lg:justify-start transform -translate-y-1/2 left-5 right-5 top-1/2 lg:top-[90%] lg:gap-5">
+                        <a href="#slide3" class="bg-[#111] text-white btn btn-circle">❮</a>
+                        <a href="#slide1" class="bg-[#111] text-white btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex md:px-8 justify-end items-center">
+                <div class="md:absolute md:bottom-14 md:w-1/2 flex flex-col justify-end bg-black text-white p-8 rounded-xl gap-3">
+                    <h2 class="lg:text-2xl text-[18px] font-extrabold">Meet all the heroes from the field</h2>
+                    <p class="w-full text-[#FFFFFF99] font-medium text-sm lg:text-base leading-[24px] lg:leading-[26px]">Dynamic and fast-paced sport, captivates fans with its skillful play, and thrilling goals. Its rich history and global popularity showcase a love for the game.</p>
+                </div>
+            </div>
+        </div>
     </header>
-    <main>
+    <main class="mx-auto w-4/5">
 
     </main>
     <footer>
-        
+
     </footer>
 </body>
 
